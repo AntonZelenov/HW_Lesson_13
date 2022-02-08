@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $black-light;
+  font-size: $font-size-global;
+  font-weight: 500;
+  line-height: $line-height;
+  font-family: Poppins, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.btn-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -7px;
+
+  &__item {
+    display: block;
+    padding: 0 7px;
+  }
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  background-color: $orange;
+  border-radius: 4px;
+  padding: 10px 23px;
+  color: $white;
+  border: 1px solid $orange;
+
+  &_white {
+    display: block;
+    text-decoration: none;
+    background-color: $white;
+    border: 1px solid $blue;
+    color: $black;
+    border-radius: 4px;
+    padding: 10px 23px;
+  }
+}
