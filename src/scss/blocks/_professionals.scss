@@ -31,6 +31,7 @@
     &__title {
       font-size: 36px;
       line-height: $title-text-line-height;
+      margin: 0;
       margin-bottom: 22px;
       color: $black;
     }
@@ -69,10 +70,10 @@
           content: "";
           color: $white;
           left: 9px;
-          top: 18px;
+          top: 16px;
           border-bottom: 3px solid $white;
           border-left: 3px solid $white;
-          width: 20px;
+          width: 18px;
           height: 10px;
           transform: rotateZ(-45deg);
         }

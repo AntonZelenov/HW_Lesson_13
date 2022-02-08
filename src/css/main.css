@@ -177,6 +177,9 @@ img {
 .intro-left__buttons .btn {
   margin-right: 30px;
 }
+.intro-left__link {
+  color: #ff9900;
+}
 .intro-left__buttons img {
   margin-right: 9px;
   display: inline;
@@ -184,6 +187,10 @@ img {
 
 .design-tools {
   padding: 100px 0 210px;
+}
+.design-tools .container {
+  max-width: 1094px;
+  width: 100%;
 }
 .design-tools__title-holder {
   max-width: 540px;
@@ -219,7 +226,7 @@ img {
 
 .column {
   width: 25%;
-  padding-right: 45px;
+  padding: 0 23px;
 }
 .column:last-child {
   padding-right: 0;
@@ -283,6 +290,7 @@ img {
 .professional__text-holder__title {
   font-size: 36px;
   line-height: 54px;
+  margin: 0;
   margin-bottom: 22px;
   color: #2f281e;
 }
@@ -320,12 +328,69 @@ img {
   content: "";
   color: #fff;
   left: 9px;
-  top: 18px;
+  top: 16px;
   border-bottom: 3px solid #fff;
   border-left: 3px solid #fff;
-  width: 20px;
+  width: 18px;
   height: 10px;
   -webkit-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
+}
+
+.footer .container {
+  padding-top: 102px;
+  border-top: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
+.footer-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 83px;
+}
+.footer-holder__list {
+  margin: 0;
+  padding: 0 80px 0 80px;
+}
+.footer-holder__item {
+  list-style: none;
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+}
+.footer-holder__link {
+  text-decoration: none;
+  color: #544837;
+}
+.footer-holder__sign {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-top: 20px;
+}
+.footer-holder__sign-container {
+  max-width: 325px;
+  width: 100%;
+}
+.footer-holder__sign-input {
+  border-radius: 4px;
+  min-height: 38px;
+  border: 1px solid #bcd0e5;
+  margin-bottom: 21px;
+  width: 325px;
+  min-height: 48px;
+}
+.footer-holder__sign .btn {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Poppins;
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
